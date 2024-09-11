@@ -2,8 +2,6 @@
 
 Terraform provisioning for an Azure Function App.
 
-## Manually Create the tfstate blob container
-
 > [!IMPORTANT]  
 > Prerequisites: Azure CLI, Terraform CLI, Azure Cloud Account
 
@@ -36,6 +34,8 @@ terraform plan -out main.tfplan
 ```shell
 terraform apply
 ```
+
+## Manually Create the tfstate blob container
 
 _Maintain the Terraform state in Azure Storage.  The follows steps create a dedicated resource group and a storage account to store the Terraform state._
 

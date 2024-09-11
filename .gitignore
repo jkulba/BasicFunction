@@ -12,6 +12,7 @@
 
 # Terraform providers
 *.terraform/
+terraform/.terraform.lock.hcl
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -401,3 +402,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
